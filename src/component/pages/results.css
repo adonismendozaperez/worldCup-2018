@@ -7,3 +7,7 @@
     top: 3px;
     left: 5px;
 }
+.card-header{
+    background-color: #4da3c9;
+    color: white;
+}
