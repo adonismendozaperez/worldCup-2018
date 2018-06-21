@@ -18,7 +18,7 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                     <a className="nav-item nav-link active" href="/">Results</a>
-                    <a className="nav-item nav-link" href="/page">Today's matches</a>
+                    <a className="nav-item nav-link" href="/TodayMaches">Today's matches</a>
                 </div>
                 </div>
             </nav>
