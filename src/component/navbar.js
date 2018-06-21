@@ -19,6 +19,7 @@ class Navbar extends Component {
                     <div className="navbar-nav">
                     <a className="nav-item nav-link active" href="/">Results</a>
                     <a className="nav-item nav-link" href="/TodayMaches">Today's matches</a>
+                    <a className="nav-item nav-link" href="/TomorrowMaches">Tomorrow Maches</a>
                 </div>
                 </div>
             </nav>
