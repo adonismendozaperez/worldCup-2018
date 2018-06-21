@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import soccer from './img/soccer.svg';
 import Navbar from './component/navbar';
 import Results from './component/pages/results';
-import './App.css';
+import Page from './component/pages/page2';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={soccer} className="App-logo" alt="logo" />
-          <h1 className="App-title">World Cup</h1>
-        </header>
-        <Navbar/>
-        <Results/>
-      </div>
+      <Router>
+          <div>
+            <Navbar/>
+            <Route exact path='/' component={Results} />
+            <Route exact path='/page' component={Page} />
+        </div>
+      </Router>
     );
   }
 }
