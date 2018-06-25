@@ -1,4 +1,4 @@
-.col-sm-3{
+.col-sm-3 {
     top: 5px;
 }
 
@@ -10,4 +10,7 @@
 .card-header{
     background-color: #4da3c9;
     color: white;
+}
+.col-sm-4{
+    margin-bottom: 1rem!important;
 }
